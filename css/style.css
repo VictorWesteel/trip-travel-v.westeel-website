@@ -1,0 +1,49 @@
+/* importing google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* importing all components file */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/design.css");
+@import url("components/h4.css");
+@import url("components/plan.css");
+
+
+
+/* general style rules for fonts and colours */
+body {
+  font-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px
+  background-color : rgb(240,240,240);
+  margin: 0px;
+
+}
+
+a {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #0b1d51 ;
+}
+
+h2 {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+    color:  #0b1d51 ;
+    font-size: 30px;
+    text-align: center;
+  }
+
+p {
+    color: black;
+    font-size: 20px;
+    text-align:center;
+  }
+
+
